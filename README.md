@@ -40,14 +40,14 @@ The framework follows the Page Object Model (POM) and supports data-driven testi
 ## 📁 Project Structure
 
 smart-ui-validator/
-├── pages/        # Page Object Model
-├── tests/        # Test cases
-├── core/         # Utilities (loader, validator, api)
-├── data/         # JSON test data
-├── conftest.py   # Fixtures
+├── pages/ # Page Object Model (UI actions)
+├── tests/ # Test cases
+├── core/ # Utilities (loader, validator, api)
+├── data/ # JSON test data
+├── conftest.py # Fixtures
 ├── pytest.ini
+├── requirements.txt
 └── README.md
-
 ---
 
 ## ▶️ How to Run
